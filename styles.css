@@ -1,5 +1,5 @@
 body{
-    background: lightblue;
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,15 +7,38 @@ body{
     display:flex;
     padding:10px;
     margin:10px;
-    background: lightsteelblue;
+    background:#CDDEF7;
+    border-radius: 10px;
 }
 
 .assignment img {
     width: 200px;
-    padding:10px;
+    margin: 10px;
+    border: 3px solid #CDDEF7;
+}
+
+.assignment img:hover {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #DB6EC1;
 }
 
 h1 {
-    color: black;
+    color: #7367D6;
     text-align: center;
+}
+
+h1:hover {
+    color: #DB6EC1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:#7367D6;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#DB6EC1;
 }
